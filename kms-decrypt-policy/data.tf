@@ -1,4 +1,4 @@
-data "kms_key" "this" {
+data "aws_kms_key" "this" {
   key_id = "${var.kms_arn}"
 }
 
